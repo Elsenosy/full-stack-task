@@ -36,4 +36,34 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function categories()
+    {
+        return $this->belongsToMany(Category::class, 'user_categories');
+    }
+
+    public function categoryFormatted(){
+        $categoryFormatted = "";
+        if(!empty($this->categories)){
+            foreach($this->categories as $cat){
+                $categoryFormatted .= $cat->name.', ';
+            }
+        }
+
+        $categoryFormatted = rtrim($categoryFormatted, ', ');
+
+        return $categoryFormatted;
+    }
+
+    /**
+     * Static function for search criteria
+     */
+    public static function searchCriteria()
+    {
+        return [
+            'price-low' => 'السعر من الأقل للأعلى',
+            'price-high' => 'السعر من الأعلى للأقل',
+            'top-rated' => 'الأعلى تقييم'
+        ];
+    }
 }

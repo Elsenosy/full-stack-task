@@ -1,5 +1,7 @@
 <?php
 
+use App\Category;
+use App\User;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +15,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('website.index');
-});
+Route::get('/', 'SearchController@index');
+Route::get('/get-users', 'SearchController@getUsers');
+Route::get('/get-user/{id}', 'SearchController@getUser');

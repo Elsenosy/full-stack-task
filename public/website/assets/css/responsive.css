@@ -1,0 +1,122 @@
+@media (max-width: 350px) {
+
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  body {
+    overflow-y: unset !important;
+  }
+    .tabs-content .login form {
+        max-width: 500px !important;
+        width: auto;
+    }
+    #header .col-md-6 {
+        padding: 0;
+    }
+    .tabs-content .login, .tabs-content .regiser {
+        height: auto;
+    }
+
+    .navbar-ho {
+        height: 650px;
+        overflow: hidden;
+        height: 650px;
+        overflow: hidden;
+        width: auto;
+        position: relative;
+        max-width: initial;
+    }
+    .col-md-3 {
+        padding: 0;
+    }
+    .home {
+        padding: 35px 30px;
+    }
+    .home .box .smollcircal {
+        width: 220px;
+        height: 220px;
+        background-color: #fff;
+        margin: 14px auto;
+        border-radius: 50%;
+        /* line-height: 300px; */
+        border: none;
+    }
+    .home .box .bigcircal {
+        width: 250px;
+        height: 250px;
+        /* background-color: #fff; */
+        margin: auto;
+        border-radius: 50%;
+        border: 2px solid #fff;
+    }
+    .home .box h3 {
+        padding: 40px 0;
+        color: #fff;
+        font-weight: 400;
+        font-size: 30px;
+        text-align: center;
+    }
+    .home .ome {
+        padding: 0 !important;
+    }
+    .item {
+        margin: auto;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 992px)  {
+  body {
+    overflow-y: unset !important;
+  }
+    .tabs-content .login, .tabs-content .regiser {
+        height: auto;
+    }
+    #header .col-md-6 {
+        padding: 0;
+    }
+    .navbar-ho {
+
+        height: 650px;
+overflow: hidden;
+width: auto;
+position: relative;
+max-width: initial;
+    }
+    .col-md-3 {
+        padding: 0;
+    }
+    .home {
+        padding: 35px 30px;
+    }
+    .home .box .smollcircal {
+        width: 220px;
+        height: 220px;
+        background-color: #fff;
+        margin: 14px auto;
+        border-radius: 50%;
+        /* line-height: 300px; */
+        border: none;
+    }
+    .home .box .bigcircal {
+        width: 250px;
+        height: 250px;
+        /* background-color: #fff; */
+        margin: auto;
+        border-radius: 50%;
+        border: 2px solid #fff;
+    }
+    .home .box h3 {
+        padding: 40px 0;
+        color: #fff;
+        font-weight: 400;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+@media (min-width: 993px)  {
+
+}
+@media (min-width: 1200px) {
+
+}

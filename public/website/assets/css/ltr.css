@@ -1,0 +1,824 @@
+/*----------------------------------------------------------------
+					Start Default Settings
+----------------------------------------------------------------*/
+
+.text-right {
+    text-align: left;
+}
+.social-media li a {    
+    margin-right: 10px;
+    margin-left: 0;
+    
+}
+body {
+    direction: ltr;
+    text-align: left;
+
+}
+
+/*----------------------------------------------------------------
+					End Default Settings
+----------------------------------------------------------------*/  
+
+/*----------------------------------------------------------------
+					Start Upperbar 
+----------------------------------------------------------------*/  
+
+
+.upper-bar .social-media-bar {
+    float: right;
+}
+.upper-bar .social-media-bar li {
+    padding-right: 3px;
+    padding-left: 0px;
+}
+
+.login-holder {
+    float: left;
+    margin-left: 0px;
+}
+.login-holder a {
+    float: left;
+    margin-right: 15px;
+    padding: 0 15px;
+    margin-left: 0;
+}
+
+.login-holder a i {
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.languages {
+    float: left;
+}
+
+.languages .lang-wrap {
+    height: 30px;
+    width: 80px;
+    background: transparent;
+    margin-top: 7px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 14px;
+}
+.languages .lang-wrap:hover {
+    opacity: 0.8;
+}
+.languages .lang-wrap a img {
+    margin-right: 5px;
+}
+.languages .lang-wrap .english-ltr {
+    display: none;
+}
+.languages .lang-wrap .arabic-rtl {
+    display: block;
+}
+/*----------------------------------------------------------------
+					End Upperbar 
+----------------------------------------------------------------*/  
+
+
+
+/*----------------------------------------------------------------
+					Start Navbar 
+----------------------------------------------------------------*/  
+.nav-bar .single-item {
+    padding-left: 0px;
+    padding-right: 50px;
+    float: left;
+}
+.nav-bar .btn-arrow-two {
+    float: left;
+}
+.navbar-toggle {
+    left: inherit;
+    right: 15px;
+}
+
+
+
+.nav-menu {
+
+    float: right;
+}
+.nav-menu li {
+    display: inline-block;
+}
+.nav-menu li a {
+    margin-right: 28px;
+    margin-right: 0px;
+}
+.links-user-nanny {
+    padding-right: 0;
+    float: right;
+}
+.links-user-nanny .icon-nav-bar  {
+    float: right;
+    margin-left: 0px;
+    margin-right: 20px;
+}
+.links-user-nanny .user-nanny {
+    float: right;
+}
+.main-user-nanny img {
+    float: right;
+}
+.main-user-nanny span {
+    padding-left: 0;
+    padding-right: 10px;
+}
+.user-nanny .main-user-nanny span i {
+    padding-right: 3px;
+    padding-left: 0px;
+}
+
+.widget-profile-cart {
+    right: 0;
+    left: inherit;
+}
+.widget-profile-cart ul {
+    margin-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.widget-profile-cart ul li:hover a {
+    padding-left: 20px;
+    padding-right: 0px;
+}
+.widget-profile-cart ul li a {
+    padding-right: 0px;
+    padding-left: 15px;
+}
+.icon-user {
+    margin-left: 0px;
+    margin-right: 5px;
+
+}
+
+
+.nav-item.has-dropdown > ul.sub-menu li a:hover {
+    padding-right: 0px;
+    padding-left: 20px;
+}
+
+.nav-bar .sub-menu .has-dropdown-two span {
+    float: left;
+}
+
+.nav-bar .sub-menu .has-dropdown-two > ul.sub-menu-two {
+    margin-left: 0px;
+    margin-right: 230px;
+}
+.nav-bar-two .nav-menu {
+
+    float: right;
+}
+.nav-bar-two .nav-menu li a {
+    margin-left: 0px;
+    margin-right: 35px;
+}
+.nav-bar-three .nav-menu {
+    float: right;
+}
+
+
+
+/*----------------------------------------------------------------
+					End Navbar 
+----------------------------------------------------------------*/  
+
+/*----------------------------------------------------------------
+					Start Section Header  
+----------------------------------------------------------------*/
+.text-left {
+    text-align: left !important;
+}
+text-right {
+    text-align: right !important;
+}
+.slider-hero .owl-nav div.owl-prev {
+    right: 10px;
+}
+.slider-hero .owl-nav div.owl-next {
+    left: 10px;
+}
+/*----------------------------------------------------------------
+					End Section  Header 
+----------------------------------------------------------------*/
+
+/*----------------------------------------------------------------
+					Start Section about Us
+----------------------------------------------------------------*/
+
+.info-about {
+    padding-right: 0px;
+     padding-left: 15px;
+}
+/*----------------------------------------------------------------
+					End Section about Us
+----------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------
+				    Start Section our Price
+----------------------------------------------------------------*/
+
+
+.slider-price .owl-nav div.owl-prev {
+    left: 45%;
+    right: inherit;
+}
+
+.slider-price .owl-nav div.owl-next {
+    
+    right: 45%;
+    left: inherit;
+}
+
+.price-item .value h3 span {
+    left: -35px;
+}
+.value .per {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.price-item .features-price {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.price-item .features-price .meta-time span:first-of-type {
+    float: right;
+}
+
+.price-item .features-price .meta-time span:last-of-type {
+    float: left;
+}
+
+/*----------------------------------------------------------------
+					End Section our Price
+----------------------------------------------------------------*/
+/*----------------------------------------------------------------
+					Start Section Our Location & Contact Us Page
+----------------------------------------------------------------*/
+
+
+.contact-item .inner-contact {
+    padding-left: 50px;
+    padding-right: 0px;
+}
+
+.contact-item .inner-contact span {
+    right: inherit;
+    left: 0;
+}
+
+
+.btn-children {
+    margin-right: 10px;
+    margin-right: 0px;
+}
+
+.img-contact .overlay-contact-us {
+    right: 0;
+    left: inherit;
+}
+
+.img-contact .text-overlay h3 {
+    right: inherit;
+    left: 30px;
+}
+
+/*----------------------------------------------------------------
+					End Section Our Location & Contact Us Page
+----------------------------------------------------------------*/
+
+/*----------------------------------------------------------------
+					Start Section Footer
+----------------------------------------------------------------*/
+
+.contact-info .single-contact {
+    padding-right: 0px;
+    padding-left: 40px;
+}
+.contact-info .single-contact span {
+    right: inherit;
+    left: 0;
+}
+
+.footer-widget .footer-link {
+    padding-left: 0;
+}
+.footer-widget .footer-link li:hover a {
+    padding-right: 8px;
+}
+
+
+.footer-widget .footer-link li:first-child a {
+    padding-top: 0;
+}
+
+.footer-widget .footer-link li:hover a {
+    padding-right: 8px;
+    color: #FFF;
+}
+
+.footer-widget .footer-link li a span {
+    padding-left: 0px;
+    padding-right: 5px;
+}
+
+.newsletter-item button {
+    left: inherit;
+    right: 0;
+
+}
+.social-media {
+    padding-left: 0;
+}
+/*----------------------------------------------------------------
+					End Section Footer
+----------------------------------------------------------------*/
+
+/*----------------------------------------------------------------
+					ٍStart header breadcrumb
+----------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------
+					End  header breadcrumb
+----------------------------------------------------------------*/
+/*----------------------------------------------------------------
+					Start Section Our Features
+----------------------------------------------------------------*/
+
+/*----------------------------------------------------------------
+					Start Section Our Features
+----------------------------------------------------------------*/
+
+/*----------------------------------------------------------------
+				Start Account Page Resgister & Login
+----------------------------------------------------------------*/
+.nav-tabs li {
+    float: left;
+}
+
+.log-in-content .btn-one {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+.remember-me {
+    padding-right: 0px;
+    padding-left: 5px;
+}
+/*----------------------------------------------------------------
+				End Account Page Resgister & Login
+----------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------
+				Start Profile User
+----------------------------------------------------------------*/
+
+.content-head-profile .breadcrumb li i {
+    padding-left: 0px;
+    padding-right: 5px;
+}
+.tabs-user-profile li {
+    float: left;
+}
+.ul-main  {
+    padding-left: 0;
+}
+.ul-main li span {
+    float: right;
+}
+.main-date-childreen li,
+.our-childrens li {
+    float: left;
+}
+
+.btn-our-childrens i {
+    padding-left: 0px;
+    padding-right: 3px;
+}
+
+.img-user-workder {
+    padding-left: 0px;
+    padding-right: 20px;
+}
+.img-user-workder img {
+    margin-right: 20px;
+    margin-left: 0px;
+}
+/* Page Edit profile */
+.edit-header-profile .content-head-profile {
+    text-align: left !important;
+}
+
+.edit-img-profile .edit-img {
+    right: inherit;
+    left: 5px;
+}
+.edit-img-profile .edit-img input[type="file"] {
+    left: inherit;
+    right: 0px;
+}
+
+/* Page Edit profile Worker */
+.project-work {
+    background: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #EEE;
+    display: table;
+    border-collapse: separate;
+    width: 100%;
+    transition: all 0.2s;
+}
+
+.img-user-hiring .img-hiring img {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+.list-info-user li span {
+    padding-right: 5px;
+    padding-left: 0px;
+}
+
+.img-personal-hiring .img-personal img {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.tags span {
+    margin-left: 0px;
+    margin-right: 5px;
+}
+
+.img-author img {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+.list-comment li span {
+    padding-left: 0px;
+    padding-right: 5px;
+}
+.list-profile-prewviw li .title-profile {
+    padding-left: 0px;
+    padding-right: 20px;
+}
+.list-profile-prewviw li .title-profile i {
+    padding-left: 0px;
+    padding-right: 5px;
+}
+
+
+
+/*----------------------------------------------------------------
+				Start Profile User
+----------------------------------------------------------------*/
+@media (max-width: 350px) {
+.info-header h1 {
+    font-size: 22px !important;
+}
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+/*========== Start Navbar ==========*/  
+.upper-bar {
+    display: block;
+}
+.upper-bar .social-media-bar {
+    display: none;
+    
+}
+.login-holder a {
+    margin-left: 0px;
+    margin-right: 5px;
+}
+
+/*========== Start Navbar ==========*/   
+.navbar-toggle {
+    display: block;
+}
+.nav-menu {
+    display: none;
+}  
+/*========== Start Navbar Fixed ==========*/ 
+
+
+/*========== Start Header ==========*/    
+.info-header h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 35px;
+}
+.text-header {
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #f8f8f8;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.slider-hero .owl-nav {
+    display: none;
+}
+.main-home {
+    height: 400px;
+}
+.main-home,
+.main-home .owl-item .info-header,
+.main-home .owl-item {
+    height: 400px !important;
+}
+.slider-hero .owl-dots {
+    display: none;
+}  
+/*========== Start About ==========*/
+.section-title h3,
+.section-title-left h3 {
+    font-size: 25px;
+    line-height: 30px;
+}
+.section-title h2,
+.section-title-left h2 {
+    font-size: 14px;
+}
+.section-title span {
+    font-size: 35px;
+    top: 40px;
+}
+.info-about h5 {
+    font-size: 16px;
+    line-height: 30px;
+}
+.slider-price .owl-nav div.owl-prev {
+    left: 0;
+}
+.slider-price .owl-nav div.owl-next {
+    right: 0;
+}
+    
+/* Pages */
+.header-breadcrumb h1 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.blog-area .blog-info,
+.inner-comments,
+.comment-form,
+.widget-profile,
+.widget-search,
+.widget-posts,
+.tags-list,
+.widget-newsletter,
+.comments .title-comments,
+.title-add, 
+.title-widget {
+
+    padding: 20px;
+}
+
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+.container {
+    max-width: 100%;
+}
+    
+/*========== Start Navbar ==========*/  
+.upper-bar {
+    display: block;
+}
+.upper-bar .social-media-bar {
+    display: none;
+    
+}
+.login-holder a {
+    margin-left: 5px;
+}
+    
+    
+/*========== Start Navbar ==========*/   
+.navbar-toggle {
+    display: block;
+}
+.nav-menu {
+    display: none;
+}
+
+/*========== Start Header ==========*/    
+.info-header h1 {
+    font-size: 25px;
+    line-height: 35px
+}
+.main-home,
+.main-home .owl-item,
+.main-home .owl-item .info-heade {
+    height: 500px !important;
+}
+
+
+/* Home Three  */
+.home-classic,
+.home-classic .owl-item .info-header,
+.home-classic .owl-item {
+    height: 400px !important;
+}    
+.slider-hero .owl-nav {
+    display: none;
+}
+.slider-hero .owl-dots {
+    display: none;
+}
+.text-header {
+    font-size: 16px;
+    line-height: 26px;
+}
+/*========== Start About ==========*/
+.section-title h3,
+.section-title-left h3 {
+    font-size: 30px;
+    line-height: 35px;
+
+}
+.section-title h2,
+.section-title-left h2 {
+    font-size: 14px;
+}
+.section-title span {
+    font-size: 35px;
+    top: 40px;
+}
+}
+
+/*  Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+.container {
+    max-width: 100%;
+}
+
+/*========== Start Header ==========*/    
+.info-header h1 {
+    font-size: 28px;
+    line-height: 45px;
+}
+
+/*========== Start About ==========*/
+.section-title h3,
+.section-title-left h3 {
+    font-size: 32px;
+
+}
+.section-title h2,
+.section-title-left h2 {
+    font-size: 14px;
+}
+
+}
+@media (max-width: 992px)
+{
+/*========== Start Navbar ==========*/   
+.links-user-nanny {
+    left: inherit;
+    right: 60px;
+}
+.main-user-nanny {
+    height: 85px;
+}
+.main-user-nanny span {
+    display: none;
+}
+.navbar-toggle {
+    display: block;
+}
+.my-logo {
+    width: 125px;
+}
+.nav-bar-two .nav-menu{
+    display: none;
+    float: none;
+}
+.nav-menu li {
+    display: block;
+}
+.nav-menu li a {
+    padding: 10px 0; 
+    margin-left: 0;
+    border-bottom: 1px solid #EEE;
+}
+.nav-bar-two .nav-menu li a {
+    margin-left: 0;
+}
+.has-dropdown .icon-down {
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    text-align: center;
+    background: transparent;
+    z-index: 555;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 46px;
+}
+.nav-bar .nav-menu .nav-item.has-dropdown > ul.sub-menu {
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    position: relative;
+    top: 0;
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+    display: none;
+    margin: 0;
+    transition: none;
+}
+    
+.nav-bar .sub-menu li.has-dropdown-two > ul.sub-menu-two {
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    transform: translateY(0%);
+    position: relative;
+    width: 100%;
+    opacity: 1;
+    top: 0;
+    visibility: visible;
+    background: #fff;
+    box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.08);
+    border-bottom: 3px solid #3764eb;
+    margin-left: 0px;
+    display: none;
+    margin: 0;
+    transition: none;
+}
+.slider-price .owl-nav div.owl-prev {
+    left: 0;
+}
+.slider-price .owl-nav div.owl-next {
+    right: 0;
+}
+    .img-profile-preview img {
+        margin-bottom: 20px;
+    }
+.profile-tabs,
+.body-request,
+.log-in-content,
+.profile-worker-projects,
+.body-widget {
+    padding: 20px;
+}
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 993px)  { 
+.container {
+    max-width: 100%;
+}    
+.nav-menu {
+    display: block !important;
+}
+
+.nav-item.has-dropdown:hover ul.sub-menu,
+.nav-bar .sub-menu .has-dropdown-two:hover > ul.sub-menu-two {
+    transform: translateY(0) !important;
+    -webkit-transform: translateY(0) !important;
+    -moz-transform: translateY(0) !important;
+    -o-transform: translateY(0) !important;
+    -ms-transform: translateY(0) !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: block !important;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+ 
+}
+}
+@media (min-width: 1200px) {
+.container {
+    max-width: 1170px;
+}
+}

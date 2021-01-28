@@ -1,4 +1,4 @@
-<html>
+<html lang="ar">
 
 <head>
     <title>@yield('title')</title>
@@ -7,17 +7,17 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Bootstrap 4 css -->
     <link rel="stylesheet" href="{{ asset('website') }}/assets/css/bootstrap.min.css">
+    
     <!-- Font Awesome css -->
     <link rel="stylesheet" href="{{ asset('website') }}/assets/css/all.css">
 
     <!-- Main style css -->
     <link rel="stylesheet" href="{{ asset('website') }}/assets/css/main.css">
 
-
     <link rel="stylesheet" href="{{ asset('website') }}/assets/css/ltr.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-mUkCBeyHPdg0tqB6JDd+65Gpw5h/l8DKcCTV2D2UpaMMFd7Jo8A+mDAosaWgFBPl" crossorigin="anonymous">
     
-    <!-- responsive css -->
-    <link rel="stylesheet" href="{{ asset('website') }}/assets/css/style.css?v=2">
     
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     {{--  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->  --}}
@@ -29,13 +29,12 @@
 
 </head>
 
-<body>
+<body dir="rtl">
 
-    <div class="container">
-        @yield('navbar')
-
+    <div>
+        @include('layouts.navbar')
         @yield('content')
-        @yield('footer')
+        @include('layouts.footer')
     </div>
 
     <!--====================================================================

@@ -1,0 +1,523 @@
+.section-right {
+  background-image: url(../images/back.jpg);
+  position: relative;
+  text-align: center;
+  /* background-position: center center; */
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+  top: 0;
+  left: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.section-right .image {
+  padding: 20px;
+  width: 70%;
+}
+.section-right .welcome {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section-right p {
+  color: #cdffa1;
+  font-size: 30px;
+  font-family: "Cairo", sans-serif;
+}
+.section-right ul {
+  position: relative;
+}
+.section-right .login {
+  position: absolute;
+  left: 0;
+  top: 10%;
+}
+
+.section-right ul li {
+  color: #4a7760;
+  width: 120px;
+  padding: 10px;
+  background: transparent;
+  margin-bottom: 10px;
+}
+#header .tabs-content .login .logo {
+
+
+  width: 80px !important;
+margin: 10px auto !important;
+}
+
+
+#header .tabs-content .regiser .logo {
+  width: 100px;
+  margin: 10px auto;
+}
+
+#header .tabs-content > div:not(.login) {
+  display: none;
+}
+.section-right ul .active {
+  color: #4a7760 !important;
+  background-color: #fff;
+}
+.section-right ul .active a {
+  color: #4a7760 !important;
+}
+.tabs-content h1 {
+  text-align: center;
+  font-size: 25px;
+  color: #4a7760;
+  margin-bottom: 15px !important;
+}
+.tabs-content .login,
+.tabs-content .regiser {
+  display: flex;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.tabs-content .regiser form {
+  position: relative;
+  margin: auto;
+  padding: 0 60px;
+}
+
+.tabs-content .login form {
+  width: 500px;
+  position: relative;
+  margin: auto;
+  padding: 20px 0px;
+}
+.tabs-content {
+  height: auto !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tabs-content .login form .icon {
+  position: absolute;
+  font-size: 20px;
+  top: 23%;
+  right: 6px;
+  color: #aeaeae;
+}
+
+.tabs-content .login form .remamber {
+  color: #4a7760;
+  left: 0;
+  position: absolute;
+  bottom: 4px;
+}
+.tabs-content .login form input {
+  background: transparent;
+  border-color: white;
+  border-bottom: 1px solid #000;
+  padding-right: 30px;
+  font-size: 20px;
+  color: #aeaeae;
+}
+.tabs-content .regiser form input {
+  background: transparent;
+  border-color: white;
+  border-bottom: 1px solid #000;
+  padding-right: 5px;
+  font-size: 15px;
+  color: #aeaeae;
+}
+.btn-one {
+  border: 0;
+  box-shadow: none;
+  background-color: #4a7760;
+  font-size: 16px;
+  font-family: "Cairo", sans-serif;
+  width: 100%;
+}
+.btn-one:hover {
+  background: #fff;
+  color: #4a7760;
+  border: 1px solid #4a7760 !important;
+}
+.social-media li a {
+  font-size: 25px;
+  margin-right: 10px;
+  transition: 0.4s;
+  width: 40px;
+  height: 40px;
+  border-radius: 1px;
+  line-height: 40px;
+  text-align: center;
+  color: #4a7760;
+  border: 0;
+  background: white;
+  display: block;
+  border-radius: 35px;
+}
+.navbar-ho {
+  background-image: url(../images/back.jpg);
+  position: relative;
+  text-align: right;
+  font-family: "Cairo", sans-serif;
+  /* background-position: center center; */
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+  top: 0;
+  left: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+.navbar-ho p {
+  text-align: center;
+  color: #fff;
+}
+.navbar-ho .overlay {
+  background: hsl(149 23% 38% / 0.9);
+}
+.navbar-ho .social-media li a {
+  color: #ffffff;
+  background: transparent;
+}
+.navbar-ho .social-media {
+  position: absolute;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* height: 100%; */
+  /* align-self: end; */
+  /* text-align: center; */
+  bottom: 0;
+  left: 20%;
+}
+.navbar-ho .logo {
+  width: 128px;
+  margin: 40px auto 0;
+}
+.navbar-ho ul li {
+  height: 60px;
+  line-height: 60px;
+  font-size: 20px;
+}
+.navbar-ho ul .active {
+  background-color: rgb(35 35 35 / 0.5);
+  box-shadow: 10px 10px 10px rgb(35 35 35 / 0.5);
+}
+.navbar-ho ul .active a {
+  margin-right: 15px;
+}
+.title {
+  /* border-bottom: 5px solid #234c00; */
+  padding: 10px 0;
+  width: 140px;
+  color: #234c00;
+  position: relative;
+}
+.title::before {
+  content: "";
+  width: 150px;
+  position: absolute;
+  height: 5px;
+  background-color: #4a7760;
+  bottom: 0;
+}
+.home {
+  padding: 0 50px;
+  min-height: 0;
+}
+
+.bar {
+  border: 5px solid #ccc;
+      width: 120px;
+      height: 120px;
+      border-radius: 8em;
+      margin: 20px 0;
+      display: inline-block;
+      font-size: 2em;
+      font-weight: bold;
+      position: relative;
+      text-align: center;
+      line-height: 0px;
+      padding: 0;
+}
+
+.bar span {
+  line-height: 120px
+}
+
+.home .box {
+  position: relative;
+  text-align: right;
+  font-family: "Cairo", sans-serif;
+  /* background-position: center center; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: auto;
+  border-radius: 25px;
+  padding: 25px;
+      margin: 20px 0;
+}
+.home .box .overlay {
+  background: linear-gradient(100deg, hsl(184 39% 23% / 0.7) 0, #4a7679 70%);
+}
+.home .box h3 {
+  padding: 20px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 50px;
+}
+.home .box .bigcircal {
+  width: 250px;
+  height: 250px;
+  /* background-color: #fff; */
+  margin: auto;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.home .box .smollcircal {
+  width: 220px;
+  height: 220px;
+  background-color: #fff;
+  margin: 14px auto;
+  border-radius: 50%;
+  /* line-height: 300px; */
+  border: none;
+}
+.home .box .test {
+  text-align: center;
+  color: #4a7679;
+  margin: 50;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+.home .box .test h1 {
+  font-size: 10em;
+}
+.home .box .test p {
+  font-size: 35px;
+  color: #4a7679;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+input[type="number"]:hover,
+input[type="number"]:focus {
+    -moz-appearance: number-input;
+}
+#item,
+#item2,
+#item3 {
+  margin: 20px auto;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+.item {
+  text-align: center;
+  border: 1px solid;
+  padding: 20px 0;
+  background-color: #507b7d;
+  color: #fff;
+  border-radius: 14px;
+  width: 100%;
+}
+.btn-pi {
+  margin: 10px auto;
+  /* color: #fff; */
+  width: 80%;
+  background-color: #507b7d;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  text-align: center;
+}
+
+.btn-pi:hover {
+  background-color: #6c6c6c !important;
+}
+/* //question  */
+.questions__content {
+  margin-bottom: 15px;
+  box-shadow: 1px 1px 10px #ccc;
+  padding: 5px;
+}
+.questions__content--title,
+.questions__content--description {
+  margin-bottom: 30px;
+}
+
+.questions__content--title,
+.questions__content--description {
+  margin-bottom: 30px;
+}
+.questions__content--title,
+.questions__content--description,
+.questions__content--questList li {
+  background: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  /* box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16); */
+}
+.questions__content--title,
+.questions__content--description,
+.questions__content--questList li {
+  background: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+.questions__content--description {
+  margin-bottom: 30px;
+}
+.questions__content--description p {
+  line-height: 30px;
+}
+
+.number-font {
+  font-family: "DigitalFont";
+  font-weight: bold;
+}
+.main-color {
+  color: #ee1748 !important;
+}
+.questions__content--questList li {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+element.style {
+}
+.questions__content--questList li {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.questions__content--title,
+.questions__content--description,
+.questions__content--questList li {
+  background: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+.questions__content--description .number,
+.questions__content--questList li span,
+.questions__infoBox--skipped span.number {
+  color: #ee1748;
+  font-size: 14px;
+  border: 1px solid #264c59;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  margin-left: 20px;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+}
+.questions__content--questList li span {
+  color: #264c59;
+}
+.questions__content--questBtns button {
+  font-size: 16px;
+  margin-top: 15px;
+}
+.questions__content--questBtns button {
+  background-color: #fff;
+  color: #264c59;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+.questions__content--questBtns button.selectedBtn {
+  background-color: #ee1748;
+  color: #fff;
+  outline: none;
+}
+
+.tabs-content .login, .tabs-content .regiser {
+  height: 75% !importants
+}
+element.style {
+}
+.questions__content--questBtns button.selectedBtn {
+  background-color: #ee1748;
+  color: #fff;
+  outline: none;
+}
+.questions__content--questBtns button {
+  font-size: 16px;
+  margin-top: 15px;
+}
+.questions__content--questBtns button {
+  background-color: #fff;
+  color: #264c59;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+.questions__content--description .number,
+.questions__content--questList li span,
+.questions__infoBox--skipped span.number {
+  color: #ee1748;
+  font-size: 14px;
+  border: 1px solid #264c59;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  margin-left: 20px;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+}
+.navbar-ho{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    max-width: 25%;
+}
+.navbar-ho .logo {
+    width: 128px;
+    margin: auto;
+}
